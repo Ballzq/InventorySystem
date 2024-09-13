@@ -6,7 +6,7 @@
     {
         String itemid = Request.Query["itemid"];
 
-        String connectionString = "Server=tcp:ole2003.database.windows.net,1433;Initial Catalog=ole2003;Persist Security Info=False;User ID=ole2003;Password=Ole048562398;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+        String connectionString = "Server=tcp:inventory254711.database.windows.net,1433;Initial Catalog=inventory;Persist Security Info=False;User ID=kritsada;Password=Balltaro2;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
             connection.Open();
